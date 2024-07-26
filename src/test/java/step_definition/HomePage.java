@@ -5,8 +5,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class HomePage {
-    @Given("Login the page and enter in the personal account")
-    public void login_the_page_and_enter_in_the_personal_account() {
+    @Given("Log in to the page and access the personal account")
+    public void login_in_to_the_page_and_enter_in_the_personal_account() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
@@ -20,8 +20,8 @@ public class HomePage {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
-    @When("Check that there aren't more unwanted emails")
-    public void check_that_there_aren_t_more_unwanted_emails() {
+    @When("Check that there are no more unwanted emails")
+    public void check_that_there_aren_no_more_unwanted_emails() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
