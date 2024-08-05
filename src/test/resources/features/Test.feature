@@ -1,5 +1,7 @@
+
 Feature: Delete unwanted emails
 
+  @---
   Scenario: Login as a personal user and delete the unwanted emails
     Given Log in to the page and access the personal account
     And Search the unwanted emails
