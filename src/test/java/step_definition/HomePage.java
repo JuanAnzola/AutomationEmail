@@ -8,7 +8,7 @@ public class HomePage {
     @Given("Log in to the page and access the personal account")
     public void login_in_to_the_page_and_enter_in_the_personal_account() {
         // Write code here that turns the phrase above into concrete actions
-        System.out.println("Test");
+        throw new io.cucumber.java.PendingException();
     }
     @And("Search the unwanted emails")
     public void search_the_unwanted_emails() {
