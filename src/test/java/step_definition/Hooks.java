@@ -1,15 +1,11 @@
 package step_definition;
 
-
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import org.junit.Assert;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-
 
 public class Hooks {
     Properties properties = new Properties();
